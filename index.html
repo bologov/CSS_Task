@@ -4,10 +4,16 @@
    <title>Red Hot Chili Peppers</title>
    <style>
 	    tr:first-of-type {
-	      font-weight: bold;
+	    	font-weight: bold;
 	    }
 	    tr + tr > *:first-child {
-        background-color: red;
+        	background-color: red;
+      	}
+    	tr + tr:nth-child(odd) {
+        	background-color: #eee;
+      	}
+      	tr + tr:nth-child(even) {
+        	background-color: white;
       	}
    </style>
  </head>
